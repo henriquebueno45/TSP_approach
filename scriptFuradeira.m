@@ -1,5 +1,5 @@
 % Passo 1: Importe os dados do arquivo CSV
-data = readmatrix('C:\Users\henri\OneDrive\Área de Trabalho\ModelagemFacil_Trab1\arquivo_modificado.csv');
+data = readmatrix('\filepath\arquivoo.csv');
 
 % Passo 2: Crie a matriz de adjacência
 distances = pdist2(data, data);
